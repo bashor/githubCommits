@@ -1,0 +1,2006 @@
+[
+  {
+    "sha": "db38f420f31e198e2af6e92ddf874545ca062991",
+    "commit": {
+      "author": {
+        "name": "Alexey Sedunov",
+        "email": "alexey.sedunov@jetbrains.com",
+        "date": "2014-04-15T10:06:06Z"
+      },
+      "committer": {
+        "name": "Alexey Sedunov",
+        "email": "alexey.sedunov@jetbrains.com",
+        "date": "2014-04-15T12:19:28Z"
+      },
+      "message": "Move Refactoring: Do not replace references to local declaration with qualified names. Update and fix test data\n#KT-4851 Fixed",
+      "tree": {
+        "sha": "baeae3514b82d4fcc09c0ad9074fc614619ebf52",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/baeae3514b82d4fcc09c0ad9074fc614619ebf52"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/db38f420f31e198e2af6e92ddf874545ca062991",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/db38f420f31e198e2af6e92ddf874545ca062991",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/db38f420f31e198e2af6e92ddf874545ca062991",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/db38f420f31e198e2af6e92ddf874545ca062991/comments",
+    "author": {
+      "login": "asedunov",
+      "id": 2734357,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2734357?",
+      "gravatar_id": "f45ef344a86e4432c7c7aefca615297c",
+      "url": "https://api.github.com/users/asedunov",
+      "html_url": "https://github.com/asedunov",
+      "followers_url": "https://api.github.com/users/asedunov/followers",
+      "following_url": "https://api.github.com/users/asedunov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asedunov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/asedunov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asedunov/subscriptions",
+      "organizations_url": "https://api.github.com/users/asedunov/orgs",
+      "repos_url": "https://api.github.com/users/asedunov/repos",
+      "events_url": "https://api.github.com/users/asedunov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/asedunov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "asedunov",
+      "id": 2734357,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2734357?",
+      "gravatar_id": "f45ef344a86e4432c7c7aefca615297c",
+      "url": "https://api.github.com/users/asedunov",
+      "html_url": "https://github.com/asedunov",
+      "followers_url": "https://api.github.com/users/asedunov/followers",
+      "following_url": "https://api.github.com/users/asedunov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asedunov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/asedunov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asedunov/subscriptions",
+      "organizations_url": "https://api.github.com/users/asedunov/orgs",
+      "repos_url": "https://api.github.com/users/asedunov/repos",
+      "events_url": "https://api.github.com/users/asedunov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/asedunov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae"
+      }
+    ]
+  },
+  {
+    "sha": "58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae",
+    "commit": {
+      "author": {
+        "name": "Svetlana Isakova",
+        "email": "svetlana.isakova@jetbrains.com",
+        "date": "2014-04-15T08:09:15Z"
+      },
+      "committer": {
+        "name": "Svetlana Isakova",
+        "email": "svetlana.isakova@jetbrains.com",
+        "date": "2014-04-15T08:09:15Z"
+      },
+      "message": "Merge pull request #406 from wutalman/explicit_type_arguments\n\nKT-4583 Intention for removing explicit type arguments at function calls",
+      "tree": {
+        "sha": "15736f549b95720d35192a99d53b6925d26331ce",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/15736f549b95720d35192a99d53b6925d26331ce"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/58b8eab620b89061a54cb0dfdb21e6dc99d7e3ae/comments",
+    "author": {
+      "login": "svtk",
+      "id": 1447386,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1447386?",
+      "gravatar_id": "c6997ce411091d4a51ea3caa2109c0b0",
+      "url": "https://api.github.com/users/svtk",
+      "html_url": "https://github.com/svtk",
+      "followers_url": "https://api.github.com/users/svtk/followers",
+      "following_url": "https://api.github.com/users/svtk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/svtk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/svtk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/svtk/subscriptions",
+      "organizations_url": "https://api.github.com/users/svtk/orgs",
+      "repos_url": "https://api.github.com/users/svtk/repos",
+      "events_url": "https://api.github.com/users/svtk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/svtk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "svtk",
+      "id": 1447386,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1447386?",
+      "gravatar_id": "c6997ce411091d4a51ea3caa2109c0b0",
+      "url": "https://api.github.com/users/svtk",
+      "html_url": "https://github.com/svtk",
+      "followers_url": "https://api.github.com/users/svtk/followers",
+      "following_url": "https://api.github.com/users/svtk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/svtk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/svtk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/svtk/subscriptions",
+      "organizations_url": "https://api.github.com/users/svtk/orgs",
+      "repos_url": "https://api.github.com/users/svtk/repos",
+      "events_url": "https://api.github.com/users/svtk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/svtk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd"
+      },
+      {
+        "sha": "b9e248b00666c10deb56bd8c90bd3749d59a9217",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/b9e248b00666c10deb56bd8c90bd3749d59a9217",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/b9e248b00666c10deb56bd8c90bd3749d59a9217"
+      }
+    ]
+  },
+  {
+    "sha": "d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd",
+    "commit": {
+      "author": {
+        "name": "Andrey Breslav",
+        "email": "andrey.breslav@jetbrains.com",
+        "date": "2014-04-14T15:15:08Z"
+      },
+      "committer": {
+        "name": "Andrey Breslav",
+        "email": "andrey.breslav@jetbrains.com",
+        "date": "2014-04-14T15:15:08Z"
+      },
+      "message": "Empty parameter list should go before '->' in a lambda\n\nExample:\n\n  val x = { -> foo() }",
+      "tree": {
+        "sha": "96e400c53ed7eadf3fe81993907e6f0bfa499bb0",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/96e400c53ed7eadf3fe81993907e6f0bfa499bb0"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/d28ca5bdfae653d91de63a8cd1ddfc1bea7545bd/comments",
+    "author": {
+      "login": "abreslav",
+      "id": 888318,
+      "avatar_url": "https://avatars.githubusercontent.com/u/888318?",
+      "gravatar_id": "d016183ac6f96c7b9fc3e54ca0d772e9",
+      "url": "https://api.github.com/users/abreslav",
+      "html_url": "https://github.com/abreslav",
+      "followers_url": "https://api.github.com/users/abreslav/followers",
+      "following_url": "https://api.github.com/users/abreslav/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abreslav/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abreslav/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abreslav/subscriptions",
+      "organizations_url": "https://api.github.com/users/abreslav/orgs",
+      "repos_url": "https://api.github.com/users/abreslav/repos",
+      "events_url": "https://api.github.com/users/abreslav/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abreslav/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "abreslav",
+      "id": 888318,
+      "avatar_url": "https://avatars.githubusercontent.com/u/888318?",
+      "gravatar_id": "d016183ac6f96c7b9fc3e54ca0d772e9",
+      "url": "https://api.github.com/users/abreslav",
+      "html_url": "https://github.com/abreslav",
+      "followers_url": "https://api.github.com/users/abreslav/followers",
+      "following_url": "https://api.github.com/users/abreslav/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abreslav/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abreslav/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abreslav/subscriptions",
+      "organizations_url": "https://api.github.com/users/abreslav/orgs",
+      "repos_url": "https://api.github.com/users/abreslav/repos",
+      "events_url": "https://api.github.com/users/abreslav/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abreslav/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4a60c59f3969b090e0956147a21a641e6781e5c6",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a60c59f3969b090e0956147a21a641e6781e5c6",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/4a60c59f3969b090e0956147a21a641e6781e5c6"
+      }
+    ]
+  },
+  {
+    "sha": "b9e248b00666c10deb56bd8c90bd3749d59a9217",
+    "commit": {
+      "author": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-03-29T03:21:20Z"
+      },
+      "committer": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-04-14T15:14:09Z"
+      },
+      "message": "Intention for removing explicit type arguments at function calls",
+      "tree": {
+        "sha": "fc67c2022648cde838aaa809ce924640e767bdb8",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/fc67c2022648cde838aaa809ce924640e767bdb8"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/b9e248b00666c10deb56bd8c90bd3749d59a9217",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/b9e248b00666c10deb56bd8c90bd3749d59a9217",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/b9e248b00666c10deb56bd8c90bd3749d59a9217",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/b9e248b00666c10deb56bd8c90bd3749d59a9217/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "4a60c59f3969b090e0956147a21a641e6781e5c6",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a60c59f3969b090e0956147a21a641e6781e5c6",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/4a60c59f3969b090e0956147a21a641e6781e5c6"
+      }
+    ]
+  },
+  {
+    "sha": "4a60c59f3969b090e0956147a21a641e6781e5c6",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-14T11:59:36Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-14T12:02:10Z"
+      },
+      "message": "Minor, fix KotlinSignature of DFS methods",
+      "tree": {
+        "sha": "466608110014f0529cd51ce98bf8a0eacb7057a6",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/466608110014f0529cd51ce98bf8a0eacb7057a6"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/4a60c59f3969b090e0956147a21a641e6781e5c6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a60c59f3969b090e0956147a21a641e6781e5c6",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/4a60c59f3969b090e0956147a21a641e6781e5c6",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a60c59f3969b090e0956147a21a641e6781e5c6/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79e7ee91e4d98fe18226bee8ee9b339a958e48ea",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/79e7ee91e4d98fe18226bee8ee9b339a958e48ea",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/79e7ee91e4d98fe18226bee8ee9b339a958e48ea"
+      }
+    ]
+  },
+  {
+    "sha": "79e7ee91e4d98fe18226bee8ee9b339a958e48ea",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-07T18:29:00Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:47Z"
+      },
+      "message": "Generate bridges for trait implementations properly\n\nThe intent was to keep the bridge codegen model as simple as possible: we\nshould be able to figure out all necessary bridges only by a minimal interface\nthat FunctionHandle provides (isAbstract, isDeclaration, getOverridden)\n\nAdd different tests for bridges\n\n #KT-318 Obsolete",
+      "tree": {
+        "sha": "eef0b7995fda20d3b916907b8f470ba0b27d3e30",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/eef0b7995fda20d3b916907b8f470ba0b27d3e30"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/79e7ee91e4d98fe18226bee8ee9b339a958e48ea",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/79e7ee91e4d98fe18226bee8ee9b339a958e48ea",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/79e7ee91e4d98fe18226bee8ee9b339a958e48ea",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/79e7ee91e4d98fe18226bee8ee9b339a958e48ea/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4a12ea9bda21957ce1f0035ba040b76228f2e7f1",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a12ea9bda21957ce1f0035ba040b76228f2e7f1",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/4a12ea9bda21957ce1f0035ba040b76228f2e7f1"
+      }
+    ]
+  },
+  {
+    "sha": "4a12ea9bda21957ce1f0035ba040b76228f2e7f1",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-07T16:20:37Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:46Z"
+      },
+      "message": "Don't generate bridges in light classes mode",
+      "tree": {
+        "sha": "df0da9163363f8c63cea8af71ec3901f2328c737",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/df0da9163363f8c63cea8af71ec3901f2328c737"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/4a12ea9bda21957ce1f0035ba040b76228f2e7f1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a12ea9bda21957ce1f0035ba040b76228f2e7f1",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/4a12ea9bda21957ce1f0035ba040b76228f2e7f1",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/4a12ea9bda21957ce1f0035ba040b76228f2e7f1/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b0db6a452673d751c4bd5c2618a6491098b6a205",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/b0db6a452673d751c4bd5c2618a6491098b6a205",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/b0db6a452673d751c4bd5c2618a6491098b6a205"
+      }
+    ]
+  },
+  {
+    "sha": "b0db6a452673d751c4bd5c2618a6491098b6a205",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-01T01:21:45Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:46Z"
+      },
+      "message": "Rewrite bridge generation to Kotlin, make it abstract",
+      "tree": {
+        "sha": "7ab53bb115259938710572ddc073b8c3115e0826",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/7ab53bb115259938710572ddc073b8c3115e0826"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/b0db6a452673d751c4bd5c2618a6491098b6a205",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/b0db6a452673d751c4bd5c2618a6491098b6a205",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/b0db6a452673d751c4bd5c2618a6491098b6a205",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/b0db6a452673d751c4bd5c2618a6491098b6a205/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc838dbb531acb32dc60fc572e1be0ca7e168d92",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/fc838dbb531acb32dc60fc572e1be0ca7e168d92",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/fc838dbb531acb32dc60fc572e1be0ca7e168d92"
+      }
+    ]
+  },
+  {
+    "sha": "fc838dbb531acb32dc60fc572e1be0ca7e168d92",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-08T14:37:02Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:46Z"
+      },
+      "message": "Refactor ImplementationBodyCodegen.getTraitImplementations()\n\nMake it static, extract a method which finds an implementation in a trait for a\nfake override",
+      "tree": {
+        "sha": "eb6ea713a03ba0b35c4d88b09b5473ae94209198",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/eb6ea713a03ba0b35c4d88b09b5473ae94209198"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/fc838dbb531acb32dc60fc572e1be0ca7e168d92",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/fc838dbb531acb32dc60fc572e1be0ca7e168d92",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/fc838dbb531acb32dc60fc572e1be0ca7e168d92",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/fc838dbb531acb32dc60fc572e1be0ca7e168d92/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5967befa6a3fd837aa5ee1467f55e0cbc8071e90",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/5967befa6a3fd837aa5ee1467f55e0cbc8071e90",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/5967befa6a3fd837aa5ee1467f55e0cbc8071e90"
+      }
+    ]
+  },
+  {
+    "sha": "5967befa6a3fd837aa5ee1467f55e0cbc8071e90",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-07T16:40:47Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:45Z"
+      },
+      "message": "Minor, catch all exceptions in asm verification in tests\n\nE.g. ClassFormatError",
+      "tree": {
+        "sha": "a716a64966d5e3a77774795c6bd467936ecdbf6e",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/a716a64966d5e3a77774795c6bd467936ecdbf6e"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/5967befa6a3fd837aa5ee1467f55e0cbc8071e90",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/5967befa6a3fd837aa5ee1467f55e0cbc8071e90",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/5967befa6a3fd837aa5ee1467f55e0cbc8071e90",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/5967befa6a3fd837aa5ee1467f55e0cbc8071e90/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28940256e35042ee0b8ac62b35a5d5b9d71f2715",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/28940256e35042ee0b8ac62b35a5d5b9d71f2715",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/28940256e35042ee0b8ac62b35a5d5b9d71f2715"
+      }
+    ]
+  },
+  {
+    "sha": "28940256e35042ee0b8ac62b35a5d5b9d71f2715",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-07T16:15:00Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:45Z"
+      },
+      "message": "Minor, add bytecode text test on bridges for fake overrides",
+      "tree": {
+        "sha": "9ec887695ba9768fc52eb3948d7beab187e1fe7b",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/9ec887695ba9768fc52eb3948d7beab187e1fe7b"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/28940256e35042ee0b8ac62b35a5d5b9d71f2715",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/28940256e35042ee0b8ac62b35a5d5b9d71f2715",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/28940256e35042ee0b8ac62b35a5d5b9d71f2715",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/28940256e35042ee0b8ac62b35a5d5b9d71f2715/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "478766815dcf748f018115610d82b272b29e14b9",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/478766815dcf748f018115610d82b272b29e14b9",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/478766815dcf748f018115610d82b272b29e14b9"
+      }
+    ]
+  },
+  {
+    "sha": "478766815dcf748f018115610d82b272b29e14b9",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-04T12:12:04Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:45Z"
+      },
+      "message": "Consider all real functions, not only declarations in bridge codegen\n\nThere should be bridges to all of the functions present in bytecode",
+      "tree": {
+        "sha": "38fd36187662c38ea39cf2c60a45efaf432eba55",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/38fd36187662c38ea39cf2c60a45efaf432eba55"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/478766815dcf748f018115610d82b272b29e14b9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/478766815dcf748f018115610d82b272b29e14b9",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/478766815dcf748f018115610d82b272b29e14b9",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/478766815dcf748f018115610d82b272b29e14b9/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "04c237cc2287972cf5afb9b2c027df5951c876e3",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/04c237cc2287972cf5afb9b2c027df5951c876e3",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/04c237cc2287972cf5afb9b2c027df5951c876e3"
+      }
+    ]
+  },
+  {
+    "sha": "04c237cc2287972cf5afb9b2c027df5951c876e3",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-03-27T15:33:42Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:44Z"
+      },
+      "message": "Generate bridges for fake overrides when needed\n\n #KT-3985 Fixed\n #KT-4145 Fixed",
+      "tree": {
+        "sha": "87b780085383bb4c978c9327c9f6ecb73d214f39",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/87b780085383bb4c978c9327c9f6ecb73d214f39"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/04c237cc2287972cf5afb9b2c027df5951c876e3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/04c237cc2287972cf5afb9b2c027df5951c876e3",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/04c237cc2287972cf5afb9b2c027df5951c876e3",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/04c237cc2287972cf5afb9b2c027df5951c876e3/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c2c918447fc4740af20b57cfd592303cbf98bc8",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/2c2c918447fc4740af20b57cfd592303cbf98bc8",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/2c2c918447fc4740af20b57cfd592303cbf98bc8"
+      }
+    ]
+  },
+  {
+    "sha": "2c2c918447fc4740af20b57cfd592303cbf98bc8",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-03-24T17:33:10Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:44Z"
+      },
+      "message": "Refactor bridges algorithm in codegen\n\n- fix a typo (which apparently didn't matter)\n- queue now always contains originals, no need to invoke getOriginal()\n- no need to add current descriptor's original anymore, this was a hack working\n  around a problem with trait-impl which was fixed by another change\n- a small optimization: don't do anything for constructors",
+      "tree": {
+        "sha": "1809aa09b8d3608232abd77ddbe6051feb6019cd",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/1809aa09b8d3608232abd77ddbe6051feb6019cd"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/2c2c918447fc4740af20b57cfd592303cbf98bc8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/2c2c918447fc4740af20b57cfd592303cbf98bc8",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/2c2c918447fc4740af20b57cfd592303cbf98bc8",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/2c2c918447fc4740af20b57cfd592303cbf98bc8/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "320a17739d92611f5d40b8945b1bdf4d26f19d42",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/320a17739d92611f5d40b8945b1bdf4d26f19d42",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/320a17739d92611f5d40b8945b1bdf4d26f19d42"
+      }
+    ]
+  },
+  {
+    "sha": "320a17739d92611f5d40b8945b1bdf4d26f19d42",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-03-24T17:24:04Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:43Z"
+      },
+      "message": "Minor, move and rename getExceptions\n\nShould only be used in FunctionCodegen from now on, because every method\ngeneration should go through FunctionCodegen",
+      "tree": {
+        "sha": "fd49c18132d4ab32ddd71ce06bcac05a188e20fa",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/fd49c18132d4ab32ddd71ce06bcac05a188e20fa"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/320a17739d92611f5d40b8945b1bdf4d26f19d42",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/320a17739d92611f5d40b8945b1bdf4d26f19d42",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/320a17739d92611f5d40b8945b1bdf4d26f19d42",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/320a17739d92611f5d40b8945b1bdf4d26f19d42/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "11386c0f7a4b623f39929b7306568eb96f917e1f",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/11386c0f7a4b623f39929b7306568eb96f917e1f",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/11386c0f7a4b623f39929b7306568eb96f917e1f"
+      }
+    ]
+  },
+  {
+    "sha": "11386c0f7a4b623f39929b7306568eb96f917e1f",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-03-24T17:15:40Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:57:43Z"
+      },
+      "message": "Simplify codegen for trait methods with implementations\n\n- use existing framework (FunctionCodegen.generateMethod) which will take care\n  of all subtleties of method generation (bridges, annotations, thrown\n  exceptions, etc)\n- call to \"generateThisOrOuter\" was not needed, since when we're generating\n  delegation to TImpl, \"this\" is always \"ALOAD 0\"",
+      "tree": {
+        "sha": "9be89b5a9040e149db315ae762d6c90ea9f13841",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/9be89b5a9040e149db315ae762d6c90ea9f13841"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/11386c0f7a4b623f39929b7306568eb96f917e1f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/11386c0f7a4b623f39929b7306568eb96f917e1f",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/11386c0f7a4b623f39929b7306568eb96f917e1f",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/11386c0f7a4b623f39929b7306568eb96f917e1f/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "089cba5791db14840fc7e367f5dff56852bd73d8",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/089cba5791db14840fc7e367f5dff56852bd73d8",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/089cba5791db14840fc7e367f5dff56852bd73d8"
+      }
+    ]
+  },
+  {
+    "sha": "089cba5791db14840fc7e367f5dff56852bd73d8",
+    "commit": {
+      "author": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-10T12:34:33Z"
+      },
+      "committer": {
+        "name": "Alexander Udalov",
+        "email": "alexander.udalov@jetbrains.com",
+        "date": "2014-04-11T17:39:56Z"
+      },
+      "message": "Warn about unwrapFakeOverride in a comment",
+      "tree": {
+        "sha": "3d3762bd3f42e055ae07df6d6fcba28b48280648",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/3d3762bd3f42e055ae07df6d6fcba28b48280648"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/089cba5791db14840fc7e367f5dff56852bd73d8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/089cba5791db14840fc7e367f5dff56852bd73d8",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/089cba5791db14840fc7e367f5dff56852bd73d8",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/089cba5791db14840fc7e367f5dff56852bd73d8/comments",
+    "author": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "udalov",
+      "id": 292714,
+      "avatar_url": "https://avatars.githubusercontent.com/u/292714?",
+      "gravatar_id": "dafa03e4e0d772fbded8dfe24bc8a166",
+      "url": "https://api.github.com/users/udalov",
+      "html_url": "https://github.com/udalov",
+      "followers_url": "https://api.github.com/users/udalov/followers",
+      "following_url": "https://api.github.com/users/udalov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/udalov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/udalov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/udalov/subscriptions",
+      "organizations_url": "https://api.github.com/users/udalov/orgs",
+      "repos_url": "https://api.github.com/users/udalov/repos",
+      "events_url": "https://api.github.com/users/udalov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/udalov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b9ddc107badcc21ec75b2c1f163ed04f17463944",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/b9ddc107badcc21ec75b2c1f163ed04f17463944",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/b9ddc107badcc21ec75b2c1f163ed04f17463944"
+      }
+    ]
+  },
+  {
+    "sha": "b9ddc107badcc21ec75b2c1f163ed04f17463944",
+    "commit": {
+      "author": {
+        "name": "Evgeny Gerashchenko",
+        "email": "evgeny.gerashchenko@jetbrains.com",
+        "date": "2014-04-11T17:06:42Z"
+      },
+      "committer": {
+        "name": "Evgeny Gerashchenko",
+        "email": "evgeny.gerashchenko@jetbrains.com",
+        "date": "2014-04-11T17:06:42Z"
+      },
+      "message": "Merge pull request #443 from Stebalien/fix-eqeqeq\n\nAccepted, thank you",
+      "tree": {
+        "sha": "a2cab8611053b11e53de45da6ff58a002de31388",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/a2cab8611053b11e53de45da6ff58a002de31388"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/b9ddc107badcc21ec75b2c1f163ed04f17463944",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/b9ddc107badcc21ec75b2c1f163ed04f17463944",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/b9ddc107badcc21ec75b2c1f163ed04f17463944",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/b9ddc107badcc21ec75b2c1f163ed04f17463944/comments",
+    "author": {
+      "login": "geevee",
+      "id": 145855,
+      "avatar_url": "https://avatars.githubusercontent.com/u/145855?",
+      "gravatar_id": "fe31dcaebca327d17d6031ffe8f9dd71",
+      "url": "https://api.github.com/users/geevee",
+      "html_url": "https://github.com/geevee",
+      "followers_url": "https://api.github.com/users/geevee/followers",
+      "following_url": "https://api.github.com/users/geevee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/geevee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/geevee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/geevee/subscriptions",
+      "organizations_url": "https://api.github.com/users/geevee/orgs",
+      "repos_url": "https://api.github.com/users/geevee/repos",
+      "events_url": "https://api.github.com/users/geevee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/geevee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "geevee",
+      "id": 145855,
+      "avatar_url": "https://avatars.githubusercontent.com/u/145855?",
+      "gravatar_id": "fe31dcaebca327d17d6031ffe8f9dd71",
+      "url": "https://api.github.com/users/geevee",
+      "html_url": "https://github.com/geevee",
+      "followers_url": "https://api.github.com/users/geevee/followers",
+      "following_url": "https://api.github.com/users/geevee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/geevee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/geevee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/geevee/subscriptions",
+      "organizations_url": "https://api.github.com/users/geevee/orgs",
+      "repos_url": "https://api.github.com/users/geevee/repos",
+      "events_url": "https://api.github.com/users/geevee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/geevee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed7a156553d2b274ec35a9fe741286caf3e31feb",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/ed7a156553d2b274ec35a9fe741286caf3e31feb",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/ed7a156553d2b274ec35a9fe741286caf3e31feb"
+      },
+      {
+        "sha": "6de114366f55e978a039cc0dd072cbd0f65bccb1",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/6de114366f55e978a039cc0dd072cbd0f65bccb1",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/6de114366f55e978a039cc0dd072cbd0f65bccb1"
+      }
+    ]
+  },
+  {
+    "sha": "6de114366f55e978a039cc0dd072cbd0f65bccb1",
+    "commit": {
+      "author": {
+        "name": "Steven Allen",
+        "email": "steven@stebalien.com",
+        "date": "2014-04-11T16:39:42Z"
+      },
+      "committer": {
+        "name": "Steven Allen",
+        "email": "steven@stebalien.com",
+        "date": "2014-04-11T16:46:26Z"
+      },
+      "message": "Correctly unparse EQEQEQ and EXCLEQEQEQ into === and !== (instead of == and !=).\n\nReported by Pradyoth Kukkapalli on the kotlin-students mailing list.",
+      "tree": {
+        "sha": "766d00ad334f011de60fbc74f360545ca7f531ee",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/766d00ad334f011de60fbc74f360545ca7f531ee"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/6de114366f55e978a039cc0dd072cbd0f65bccb1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/6de114366f55e978a039cc0dd072cbd0f65bccb1",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/6de114366f55e978a039cc0dd072cbd0f65bccb1",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/6de114366f55e978a039cc0dd072cbd0f65bccb1/comments",
+    "author": {
+      "login": "Stebalien",
+      "id": 310393,
+      "avatar_url": "https://avatars.githubusercontent.com/u/310393?",
+      "gravatar_id": "d161f230b3456d0bfd740154ae16e0a3",
+      "url": "https://api.github.com/users/Stebalien",
+      "html_url": "https://github.com/Stebalien",
+      "followers_url": "https://api.github.com/users/Stebalien/followers",
+      "following_url": "https://api.github.com/users/Stebalien/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Stebalien/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Stebalien/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Stebalien/subscriptions",
+      "organizations_url": "https://api.github.com/users/Stebalien/orgs",
+      "repos_url": "https://api.github.com/users/Stebalien/repos",
+      "events_url": "https://api.github.com/users/Stebalien/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Stebalien/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Stebalien",
+      "id": 310393,
+      "avatar_url": "https://avatars.githubusercontent.com/u/310393?",
+      "gravatar_id": "d161f230b3456d0bfd740154ae16e0a3",
+      "url": "https://api.github.com/users/Stebalien",
+      "html_url": "https://github.com/Stebalien",
+      "followers_url": "https://api.github.com/users/Stebalien/followers",
+      "following_url": "https://api.github.com/users/Stebalien/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Stebalien/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Stebalien/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Stebalien/subscriptions",
+      "organizations_url": "https://api.github.com/users/Stebalien/orgs",
+      "repos_url": "https://api.github.com/users/Stebalien/repos",
+      "events_url": "https://api.github.com/users/Stebalien/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Stebalien/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8777ab9ee8ec8d4678a592762ebffb0602940c88",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/8777ab9ee8ec8d4678a592762ebffb0602940c88",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/8777ab9ee8ec8d4678a592762ebffb0602940c88"
+      }
+    ]
+  },
+  {
+    "sha": "ed7a156553d2b274ec35a9fe741286caf3e31feb",
+    "commit": {
+      "author": {
+        "name": "Natalia Ukhorskaya",
+        "email": "natalia.ukhorskaya@jetbrains.com",
+        "date": "2014-04-11T08:11:44Z"
+      },
+      "committer": {
+        "name": "Natalia Ukhorskaya",
+        "email": "natalia.ukhorskaya@jetbrains.com",
+        "date": "2014-04-11T08:11:44Z"
+      },
+      "message": "Merge remote-tracking branch 'origin/pr/435'\n\nConflicts:\n\tidea/src/META-INF/plugin.xml\n\tidea/tests/org/jetbrains/jet/plugin/codeInsight/JetInspectionTestGenerated.java",
+      "tree": {
+        "sha": "c3ab6c0072de522d3b3bfb920f890a0cf8d6e0e2",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/c3ab6c0072de522d3b3bfb920f890a0cf8d6e0e2"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/ed7a156553d2b274ec35a9fe741286caf3e31feb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/ed7a156553d2b274ec35a9fe741286caf3e31feb",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/ed7a156553d2b274ec35a9fe741286caf3e31feb",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/ed7a156553d2b274ec35a9fe741286caf3e31feb/comments",
+    "author": {
+      "login": "NataliaUkhorskaya",
+      "id": 968879,
+      "avatar_url": "https://avatars.githubusercontent.com/u/968879?",
+      "gravatar_id": "fe475716aa07cccf8b5f8250079eb5b5",
+      "url": "https://api.github.com/users/NataliaUkhorskaya",
+      "html_url": "https://github.com/NataliaUkhorskaya",
+      "followers_url": "https://api.github.com/users/NataliaUkhorskaya/followers",
+      "following_url": "https://api.github.com/users/NataliaUkhorskaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NataliaUkhorskaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NataliaUkhorskaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NataliaUkhorskaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/NataliaUkhorskaya/orgs",
+      "repos_url": "https://api.github.com/users/NataliaUkhorskaya/repos",
+      "events_url": "https://api.github.com/users/NataliaUkhorskaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NataliaUkhorskaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NataliaUkhorskaya",
+      "id": 968879,
+      "avatar_url": "https://avatars.githubusercontent.com/u/968879?",
+      "gravatar_id": "fe475716aa07cccf8b5f8250079eb5b5",
+      "url": "https://api.github.com/users/NataliaUkhorskaya",
+      "html_url": "https://github.com/NataliaUkhorskaya",
+      "followers_url": "https://api.github.com/users/NataliaUkhorskaya/followers",
+      "following_url": "https://api.github.com/users/NataliaUkhorskaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NataliaUkhorskaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NataliaUkhorskaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NataliaUkhorskaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/NataliaUkhorskaya/orgs",
+      "repos_url": "https://api.github.com/users/NataliaUkhorskaya/repos",
+      "events_url": "https://api.github.com/users/NataliaUkhorskaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NataliaUkhorskaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f6a4cce3ae169471118dc8a72525596e622b9698",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/f6a4cce3ae169471118dc8a72525596e622b9698",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/f6a4cce3ae169471118dc8a72525596e622b9698"
+      },
+      {
+        "sha": "867925d5a19ca6917d21d22138f1cdda8631da21",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/867925d5a19ca6917d21d22138f1cdda8631da21",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/867925d5a19ca6917d21d22138f1cdda8631da21"
+      }
+    ]
+  },
+  {
+    "sha": "f6a4cce3ae169471118dc8a72525596e622b9698",
+    "commit": {
+      "author": {
+        "name": "Natalia Ukhorskaya",
+        "email": "natalia.ukhorskaya@gmail.com",
+        "date": "2014-04-11T07:59:42Z"
+      },
+      "committer": {
+        "name": "Natalia Ukhorskaya",
+        "email": "natalia.ukhorskaya@gmail.com",
+        "date": "2014-04-11T07:59:42Z"
+      },
+      "message": "Merge pull request #434 from zgrannan/if_then_to_elvis_inspection\n\nKT-4555 Inspection to detect if's that are foldable to elvis operator",
+      "tree": {
+        "sha": "c30cfe19a2204c996478c05ed4355be32af3f51c",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/c30cfe19a2204c996478c05ed4355be32af3f51c"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/f6a4cce3ae169471118dc8a72525596e622b9698",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/f6a4cce3ae169471118dc8a72525596e622b9698",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/f6a4cce3ae169471118dc8a72525596e622b9698",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/f6a4cce3ae169471118dc8a72525596e622b9698/comments",
+    "author": {
+      "login": "NataliaUkhorskaya",
+      "id": 968879,
+      "avatar_url": "https://avatars.githubusercontent.com/u/968879?",
+      "gravatar_id": "fe475716aa07cccf8b5f8250079eb5b5",
+      "url": "https://api.github.com/users/NataliaUkhorskaya",
+      "html_url": "https://github.com/NataliaUkhorskaya",
+      "followers_url": "https://api.github.com/users/NataliaUkhorskaya/followers",
+      "following_url": "https://api.github.com/users/NataliaUkhorskaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NataliaUkhorskaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NataliaUkhorskaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NataliaUkhorskaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/NataliaUkhorskaya/orgs",
+      "repos_url": "https://api.github.com/users/NataliaUkhorskaya/repos",
+      "events_url": "https://api.github.com/users/NataliaUkhorskaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NataliaUkhorskaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NataliaUkhorskaya",
+      "id": 968879,
+      "avatar_url": "https://avatars.githubusercontent.com/u/968879?",
+      "gravatar_id": "fe475716aa07cccf8b5f8250079eb5b5",
+      "url": "https://api.github.com/users/NataliaUkhorskaya",
+      "html_url": "https://github.com/NataliaUkhorskaya",
+      "followers_url": "https://api.github.com/users/NataliaUkhorskaya/followers",
+      "following_url": "https://api.github.com/users/NataliaUkhorskaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NataliaUkhorskaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NataliaUkhorskaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NataliaUkhorskaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/NataliaUkhorskaya/orgs",
+      "repos_url": "https://api.github.com/users/NataliaUkhorskaya/repos",
+      "events_url": "https://api.github.com/users/NataliaUkhorskaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NataliaUkhorskaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cfc16b410e9bda58f9603abba5fe679685cdf483",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/cfc16b410e9bda58f9603abba5fe679685cdf483",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/cfc16b410e9bda58f9603abba5fe679685cdf483"
+      },
+      {
+        "sha": "328607a3ab85f935abe9b3fdb3ef690e9665ee3d",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/328607a3ab85f935abe9b3fdb3ef690e9665ee3d",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/328607a3ab85f935abe9b3fdb3ef690e9665ee3d"
+      }
+    ]
+  },
+  {
+    "sha": "867925d5a19ca6917d21d22138f1cdda8631da21",
+    "commit": {
+      "author": {
+        "name": "Zack Grannan",
+        "email": "zgrannan@gmail.com",
+        "date": "2014-03-31T03:42:57Z"
+      },
+      "committer": {
+        "name": "Zack Grannan",
+        "email": "zgrannan@gmail.com",
+        "date": "2014-04-10T22:44:59Z"
+      },
+      "message": "Added ifThenToSafeAccessInspection",
+      "tree": {
+        "sha": "e9eaa91f35c2c5ad2c1e81071d63adbc5b4896e1",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/e9eaa91f35c2c5ad2c1e81071d63adbc5b4896e1"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/867925d5a19ca6917d21d22138f1cdda8631da21",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/867925d5a19ca6917d21d22138f1cdda8631da21",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/867925d5a19ca6917d21d22138f1cdda8631da21",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/867925d5a19ca6917d21d22138f1cdda8631da21/comments",
+    "author": {
+      "login": "zgrannan",
+      "id": 1141948,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1141948?",
+      "gravatar_id": "f440c6930ee9514ccc6e2ae83762b593",
+      "url": "https://api.github.com/users/zgrannan",
+      "html_url": "https://github.com/zgrannan",
+      "followers_url": "https://api.github.com/users/zgrannan/followers",
+      "following_url": "https://api.github.com/users/zgrannan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zgrannan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zgrannan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zgrannan/subscriptions",
+      "organizations_url": "https://api.github.com/users/zgrannan/orgs",
+      "repos_url": "https://api.github.com/users/zgrannan/repos",
+      "events_url": "https://api.github.com/users/zgrannan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zgrannan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zgrannan",
+      "id": 1141948,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1141948?",
+      "gravatar_id": "f440c6930ee9514ccc6e2ae83762b593",
+      "url": "https://api.github.com/users/zgrannan",
+      "html_url": "https://github.com/zgrannan",
+      "followers_url": "https://api.github.com/users/zgrannan/followers",
+      "following_url": "https://api.github.com/users/zgrannan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zgrannan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zgrannan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zgrannan/subscriptions",
+      "organizations_url": "https://api.github.com/users/zgrannan/orgs",
+      "repos_url": "https://api.github.com/users/zgrannan/repos",
+      "events_url": "https://api.github.com/users/zgrannan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zgrannan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cfc16b410e9bda58f9603abba5fe679685cdf483",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/cfc16b410e9bda58f9603abba5fe679685cdf483",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/cfc16b410e9bda58f9603abba5fe679685cdf483"
+      }
+    ]
+  },
+  {
+    "sha": "328607a3ab85f935abe9b3fdb3ef690e9665ee3d",
+    "commit": {
+      "author": {
+        "name": "Zack Grannan",
+        "email": "zgrannan@gmail.com",
+        "date": "2014-03-31T04:20:13Z"
+      },
+      "committer": {
+        "name": "Zack Grannan",
+        "email": "zgrannan@gmail.com",
+        "date": "2014-04-10T21:43:18Z"
+      },
+      "message": "Added ifThenToElvisInspection\n\nConflicts:\n\tidea/src/META-INF/plugin.xml",
+      "tree": {
+        "sha": "c30cfe19a2204c996478c05ed4355be32af3f51c",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/c30cfe19a2204c996478c05ed4355be32af3f51c"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/328607a3ab85f935abe9b3fdb3ef690e9665ee3d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/328607a3ab85f935abe9b3fdb3ef690e9665ee3d",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/328607a3ab85f935abe9b3fdb3ef690e9665ee3d",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/328607a3ab85f935abe9b3fdb3ef690e9665ee3d/comments",
+    "author": {
+      "login": "zgrannan",
+      "id": 1141948,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1141948?",
+      "gravatar_id": "f440c6930ee9514ccc6e2ae83762b593",
+      "url": "https://api.github.com/users/zgrannan",
+      "html_url": "https://github.com/zgrannan",
+      "followers_url": "https://api.github.com/users/zgrannan/followers",
+      "following_url": "https://api.github.com/users/zgrannan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zgrannan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zgrannan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zgrannan/subscriptions",
+      "organizations_url": "https://api.github.com/users/zgrannan/orgs",
+      "repos_url": "https://api.github.com/users/zgrannan/repos",
+      "events_url": "https://api.github.com/users/zgrannan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zgrannan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zgrannan",
+      "id": 1141948,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1141948?",
+      "gravatar_id": "f440c6930ee9514ccc6e2ae83762b593",
+      "url": "https://api.github.com/users/zgrannan",
+      "html_url": "https://github.com/zgrannan",
+      "followers_url": "https://api.github.com/users/zgrannan/followers",
+      "following_url": "https://api.github.com/users/zgrannan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zgrannan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zgrannan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zgrannan/subscriptions",
+      "organizations_url": "https://api.github.com/users/zgrannan/orgs",
+      "repos_url": "https://api.github.com/users/zgrannan/repos",
+      "events_url": "https://api.github.com/users/zgrannan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zgrannan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cfc16b410e9bda58f9603abba5fe679685cdf483",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/cfc16b410e9bda58f9603abba5fe679685cdf483",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/cfc16b410e9bda58f9603abba5fe679685cdf483"
+      }
+    ]
+  },
+  {
+    "sha": "cfc16b410e9bda58f9603abba5fe679685cdf483",
+    "commit": {
+      "author": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-03-29T03:18:26Z"
+      },
+      "committer": {
+        "name": "Andrey Breslav",
+        "email": "andrey.breslav@jetbrains.com",
+        "date": "2014-04-10T12:28:42Z"
+      },
+      "message": "Intention for adding explicit type arguments at function calls",
+      "tree": {
+        "sha": "4f3ca9ec9f1fa894d7b41a964ca34cb122eeeb68",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/4f3ca9ec9f1fa894d7b41a964ca34cb122eeeb68"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/cfc16b410e9bda58f9603abba5fe679685cdf483",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/cfc16b410e9bda58f9603abba5fe679685cdf483",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/cfc16b410e9bda58f9603abba5fe679685cdf483",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/cfc16b410e9bda58f9603abba5fe679685cdf483/comments",
+    "author": null,
+    "committer": {
+      "login": "abreslav",
+      "id": 888318,
+      "avatar_url": "https://avatars.githubusercontent.com/u/888318?",
+      "gravatar_id": "d016183ac6f96c7b9fc3e54ca0d772e9",
+      "url": "https://api.github.com/users/abreslav",
+      "html_url": "https://github.com/abreslav",
+      "followers_url": "https://api.github.com/users/abreslav/followers",
+      "following_url": "https://api.github.com/users/abreslav/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abreslav/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abreslav/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abreslav/subscriptions",
+      "organizations_url": "https://api.github.com/users/abreslav/orgs",
+      "repos_url": "https://api.github.com/users/abreslav/repos",
+      "events_url": "https://api.github.com/users/abreslav/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abreslav/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f8db72201174ba4f76d5937161d588279c053646",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/f8db72201174ba4f76d5937161d588279c053646",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/f8db72201174ba4f76d5937161d588279c053646"
+      }
+    ]
+  },
+  {
+    "sha": "f8db72201174ba4f76d5937161d588279c053646",
+    "commit": {
+      "author": {
+        "name": "Natalia Ukhorskaya",
+        "email": "natalia.ukhorskaya@gmail.com",
+        "date": "2014-04-10T07:00:16Z"
+      },
+      "committer": {
+        "name": "Natalia Ukhorskaya",
+        "email": "natalia.ukhorskaya@gmail.com",
+        "date": "2014-04-10T07:00:16Z"
+      },
+      "message": "Merge pull request #392 from wutalman/simplify_booleans\n\nKT-4569: Intention to simplify boolean expressions with constants #KT-4569 Fixed",
+      "tree": {
+        "sha": "3ccac82860fa51e14109cc022be84d82a1e43c11",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/3ccac82860fa51e14109cc022be84d82a1e43c11"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/f8db72201174ba4f76d5937161d588279c053646",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/f8db72201174ba4f76d5937161d588279c053646",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/f8db72201174ba4f76d5937161d588279c053646",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/f8db72201174ba4f76d5937161d588279c053646/comments",
+    "author": {
+      "login": "NataliaUkhorskaya",
+      "id": 968879,
+      "avatar_url": "https://avatars.githubusercontent.com/u/968879?",
+      "gravatar_id": "fe475716aa07cccf8b5f8250079eb5b5",
+      "url": "https://api.github.com/users/NataliaUkhorskaya",
+      "html_url": "https://github.com/NataliaUkhorskaya",
+      "followers_url": "https://api.github.com/users/NataliaUkhorskaya/followers",
+      "following_url": "https://api.github.com/users/NataliaUkhorskaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NataliaUkhorskaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NataliaUkhorskaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NataliaUkhorskaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/NataliaUkhorskaya/orgs",
+      "repos_url": "https://api.github.com/users/NataliaUkhorskaya/repos",
+      "events_url": "https://api.github.com/users/NataliaUkhorskaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NataliaUkhorskaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "NataliaUkhorskaya",
+      "id": 968879,
+      "avatar_url": "https://avatars.githubusercontent.com/u/968879?",
+      "gravatar_id": "fe475716aa07cccf8b5f8250079eb5b5",
+      "url": "https://api.github.com/users/NataliaUkhorskaya",
+      "html_url": "https://github.com/NataliaUkhorskaya",
+      "followers_url": "https://api.github.com/users/NataliaUkhorskaya/followers",
+      "following_url": "https://api.github.com/users/NataliaUkhorskaya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NataliaUkhorskaya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NataliaUkhorskaya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NataliaUkhorskaya/subscriptions",
+      "organizations_url": "https://api.github.com/users/NataliaUkhorskaya/orgs",
+      "repos_url": "https://api.github.com/users/NataliaUkhorskaya/repos",
+      "events_url": "https://api.github.com/users/NataliaUkhorskaya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NataliaUkhorskaya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "32651ec05ffaf18992dafbafc34a877b53437475",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/32651ec05ffaf18992dafbafc34a877b53437475",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/32651ec05ffaf18992dafbafc34a877b53437475"
+      },
+      {
+        "sha": "0feb0d35e6ee7af269fcc044e41970ad76e63958",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/0feb0d35e6ee7af269fcc044e41970ad76e63958",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/0feb0d35e6ee7af269fcc044e41970ad76e63958"
+      }
+    ]
+  },
+  {
+    "sha": "0feb0d35e6ee7af269fcc044e41970ad76e63958",
+    "commit": {
+      "author": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-04-09T18:45:42Z"
+      },
+      "committer": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-04-09T18:47:13Z"
+      },
+      "message": "Intention to simplify boolean expressions that have expressions in them that can be simplified to constants",
+      "tree": {
+        "sha": "24b0331ce94a929fcf2b0a6488dbc9838b02686f",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/24b0331ce94a929fcf2b0a6488dbc9838b02686f"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/0feb0d35e6ee7af269fcc044e41970ad76e63958",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/0feb0d35e6ee7af269fcc044e41970ad76e63958",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/0feb0d35e6ee7af269fcc044e41970ad76e63958",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/0feb0d35e6ee7af269fcc044e41970ad76e63958/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "aeb5bae556bb26cfe9c2f3101037cce0d3ebc146",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/aeb5bae556bb26cfe9c2f3101037cce0d3ebc146",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/aeb5bae556bb26cfe9c2f3101037cce0d3ebc146"
+      }
+    ]
+  },
+  {
+    "sha": "aeb5bae556bb26cfe9c2f3101037cce0d3ebc146",
+    "commit": {
+      "author": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-04-09T18:38:50Z"
+      },
+      "committer": {
+        "name": "Tal Man",
+        "email": "tman@andrew.cmu.edu",
+        "date": "2014-04-09T18:47:05Z"
+      },
+      "message": "Refactoring of CompileTimeConstant, introduce flag to represent a constant being referenced by a variable",
+      "tree": {
+        "sha": "80078df86cbfa2a1c795f3c76e634b4cfb85483a",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/80078df86cbfa2a1c795f3c76e634b4cfb85483a"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/aeb5bae556bb26cfe9c2f3101037cce0d3ebc146",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/aeb5bae556bb26cfe9c2f3101037cce0d3ebc146",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/aeb5bae556bb26cfe9c2f3101037cce0d3ebc146",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/aeb5bae556bb26cfe9c2f3101037cce0d3ebc146/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "32a2e63ae5e776a0d52d641705e010c12a2d275a",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/32a2e63ae5e776a0d52d641705e010c12a2d275a",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/32a2e63ae5e776a0d52d641705e010c12a2d275a"
+      }
+    ]
+  },
+  {
+    "sha": "32651ec05ffaf18992dafbafc34a877b53437475",
+    "commit": {
+      "author": {
+        "name": "Pavel Talanov",
+        "email": "talanov.pavel@gmail.com",
+        "date": "2014-04-09T16:10:50Z"
+      },
+      "committer": {
+        "name": "Pavel Talanov",
+        "email": "talanov.pavel@gmail.com",
+        "date": "2014-04-09T16:10:50Z"
+      },
+      "message": "Merge pull request #431 from gavinkeusch/split_if_new\n\nKT-4794: Added functionality to KT-4574: Split If. Intention is now offered inside IF keyword",
+      "tree": {
+        "sha": "bd17be1d89745b43bc791bdca2073bbc5a4ca3c5",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/bd17be1d89745b43bc791bdca2073bbc5a4ca3c5"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/32651ec05ffaf18992dafbafc34a877b53437475",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/32651ec05ffaf18992dafbafc34a877b53437475",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/32651ec05ffaf18992dafbafc34a877b53437475",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/32651ec05ffaf18992dafbafc34a877b53437475/comments",
+    "author": {
+      "login": "pTalanov",
+      "id": 442640,
+      "avatar_url": "https://avatars.githubusercontent.com/u/442640?",
+      "gravatar_id": "db2300a7c2ca327266d356eff9a58b8b",
+      "url": "https://api.github.com/users/pTalanov",
+      "html_url": "https://github.com/pTalanov",
+      "followers_url": "https://api.github.com/users/pTalanov/followers",
+      "following_url": "https://api.github.com/users/pTalanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pTalanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pTalanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pTalanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/pTalanov/orgs",
+      "repos_url": "https://api.github.com/users/pTalanov/repos",
+      "events_url": "https://api.github.com/users/pTalanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pTalanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pTalanov",
+      "id": 442640,
+      "avatar_url": "https://avatars.githubusercontent.com/u/442640?",
+      "gravatar_id": "db2300a7c2ca327266d356eff9a58b8b",
+      "url": "https://api.github.com/users/pTalanov",
+      "html_url": "https://github.com/pTalanov",
+      "followers_url": "https://api.github.com/users/pTalanov/followers",
+      "following_url": "https://api.github.com/users/pTalanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pTalanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pTalanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pTalanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/pTalanov/orgs",
+      "repos_url": "https://api.github.com/users/pTalanov/repos",
+      "events_url": "https://api.github.com/users/pTalanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pTalanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c32bb67365af6bcddd53b3b79d4aae4430015edc",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/c32bb67365af6bcddd53b3b79d4aae4430015edc",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/c32bb67365af6bcddd53b3b79d4aae4430015edc"
+      },
+      {
+        "sha": "216ea4940d7332d361da055ff149b1d5eed19d68",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/216ea4940d7332d361da055ff149b1d5eed19d68",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/216ea4940d7332d361da055ff149b1d5eed19d68"
+      }
+    ]
+  },
+  {
+    "sha": "216ea4940d7332d361da055ff149b1d5eed19d68",
+    "commit": {
+      "author": {
+        "name": "gavinkeusch",
+        "email": "gavin@atws.ca",
+        "date": "2014-04-08T18:29:30Z"
+      },
+      "committer": {
+        "name": "gavinkeusch",
+        "email": "gavin@atws.ca",
+        "date": "2014-04-08T18:29:30Z"
+      },
+      "message": "KT-4794: Added functionality to KT-4574: Split If. Intention is now offered inside IF keyword",
+      "tree": {
+        "sha": "3ade38e5df358e8fb36d3053cb3864b1d4a9a91a",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/3ade38e5df358e8fb36d3053cb3864b1d4a9a91a"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/216ea4940d7332d361da055ff149b1d5eed19d68",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/216ea4940d7332d361da055ff149b1d5eed19d68",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/216ea4940d7332d361da055ff149b1d5eed19d68",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/216ea4940d7332d361da055ff149b1d5eed19d68/comments",
+    "author": {
+      "login": "gavinkeusch",
+      "id": 6087642,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6087642?",
+      "gravatar_id": "933a60215bbdc620946e4f54f231e8f1",
+      "url": "https://api.github.com/users/gavinkeusch",
+      "html_url": "https://github.com/gavinkeusch",
+      "followers_url": "https://api.github.com/users/gavinkeusch/followers",
+      "following_url": "https://api.github.com/users/gavinkeusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gavinkeusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gavinkeusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gavinkeusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/gavinkeusch/orgs",
+      "repos_url": "https://api.github.com/users/gavinkeusch/repos",
+      "events_url": "https://api.github.com/users/gavinkeusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gavinkeusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gavinkeusch",
+      "id": 6087642,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6087642?",
+      "gravatar_id": "933a60215bbdc620946e4f54f231e8f1",
+      "url": "https://api.github.com/users/gavinkeusch",
+      "html_url": "https://github.com/gavinkeusch",
+      "followers_url": "https://api.github.com/users/gavinkeusch/followers",
+      "following_url": "https://api.github.com/users/gavinkeusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gavinkeusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gavinkeusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gavinkeusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/gavinkeusch/orgs",
+      "repos_url": "https://api.github.com/users/gavinkeusch/repos",
+      "events_url": "https://api.github.com/users/gavinkeusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gavinkeusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5fb2ea0abf0e82cf7cc04cb6b7571fb3c86451f",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/f5fb2ea0abf0e82cf7cc04cb6b7571fb3c86451f",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/f5fb2ea0abf0e82cf7cc04cb6b7571fb3c86451f"
+      }
+    ]
+  },
+  {
+    "sha": "c32bb67365af6bcddd53b3b79d4aae4430015edc",
+    "commit": {
+      "author": {
+        "name": "Evgeny Gerashchenko",
+        "email": "evgeny.gerashchenko@jetbrains.com",
+        "date": "2014-04-08T15:29:44Z"
+      },
+      "committer": {
+        "name": "Evgeny Gerashchenko",
+        "email": "evgeny.gerashchenko@jetbrains.com",
+        "date": "2014-04-08T15:29:44Z"
+      },
+      "message": "Updated to IDEA 135.667 (13.1.2 EAP)",
+      "tree": {
+        "sha": "b9aafbd1e48862bf598a5c60103763cd9f15a78c",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/git/trees/b9aafbd1e48862bf598a5c60103763cd9f15a78c"
+      },
+      "url": "https://api.github.com/repos/JetBrains/kotlin/git/commits/c32bb67365af6bcddd53b3b79d4aae4430015edc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/JetBrains/kotlin/commits/c32bb67365af6bcddd53b3b79d4aae4430015edc",
+    "html_url": "https://github.com/JetBrains/kotlin/commit/c32bb67365af6bcddd53b3b79d4aae4430015edc",
+    "comments_url": "https://api.github.com/repos/JetBrains/kotlin/commits/c32bb67365af6bcddd53b3b79d4aae4430015edc/comments",
+    "author": {
+      "login": "geevee",
+      "id": 145855,
+      "avatar_url": "https://avatars.githubusercontent.com/u/145855?",
+      "gravatar_id": "fe31dcaebca327d17d6031ffe8f9dd71",
+      "url": "https://api.github.com/users/geevee",
+      "html_url": "https://github.com/geevee",
+      "followers_url": "https://api.github.com/users/geevee/followers",
+      "following_url": "https://api.github.com/users/geevee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/geevee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/geevee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/geevee/subscriptions",
+      "organizations_url": "https://api.github.com/users/geevee/orgs",
+      "repos_url": "https://api.github.com/users/geevee/repos",
+      "events_url": "https://api.github.com/users/geevee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/geevee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "geevee",
+      "id": 145855,
+      "avatar_url": "https://avatars.githubusercontent.com/u/145855?",
+      "gravatar_id": "fe31dcaebca327d17d6031ffe8f9dd71",
+      "url": "https://api.github.com/users/geevee",
+      "html_url": "https://github.com/geevee",
+      "followers_url": "https://api.github.com/users/geevee/followers",
+      "following_url": "https://api.github.com/users/geevee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/geevee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/geevee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/geevee/subscriptions",
+      "organizations_url": "https://api.github.com/users/geevee/orgs",
+      "repos_url": "https://api.github.com/users/geevee/repos",
+      "events_url": "https://api.github.com/users/geevee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/geevee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5fb2ea0abf0e82cf7cc04cb6b7571fb3c86451f",
+        "url": "https://api.github.com/repos/JetBrains/kotlin/commits/f5fb2ea0abf0e82cf7cc04cb6b7571fb3c86451f",
+        "html_url": "https://github.com/JetBrains/kotlin/commit/f5fb2ea0abf0e82cf7cc04cb6b7571fb3c86451f"
+      }
+    ]
+  }
+]

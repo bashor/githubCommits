@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kotlin commits</title>
+</head>
+
+<style>
+
+    .chart div.bar-container {
+        display: inline-block;
+    }
+
+    .chart .bar-container img {
+        float: left;
+        height: 25px;
+        width: 25px;
+    }
+
+    .chart .bar-container div.bar {
+        display: inline-block;
+        height: 18px;
+        font: 10px sans-serif;
+        background-color: steelblue;
+        text-align: right;
+        padding: 3px;
+        margin: 1px;
+        color: white;
+    }
+
+</style>
+
+<body>
+
+<h3>Chart:</h3>
+
+<div id="chart" class="chart"></div>
+
+<h3>Commits:</h3>
+
+<div id="commits"></div>
+
+
+<script src="js/lib/jquery-2.1.0.js"></script>
+<script src="js/lib/d3.v3.js"></script>
+<script src="js/lib/kotlin.js"></script>
+<script src="../out/production/githubCommits/githubCommits.js"></script>
+
+</body>
+</html>
