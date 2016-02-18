@@ -1,10 +1,14 @@
 package github.commits
 
-import jquery.*
 import d3.d3
 import github.api.CommitInfo
-import java.util.HashMap
-import kotlin.js.array.ext.*
+import jquery.getJSON
+import jquery.hide
+import jquery.jq
+import jquery.show
+import java.util.*
+import kotlin.js.array.ext.push
+import kotlin.js.array.ext.sort
 
 val GET_KOTLIN_COMMITS = "https://api.github.com/repos/JetBrains/kotlin/commits?sha=master&per_page=100"
 val GET_KOTLIN_COMMITS_LOCAL = "/githubCommits/commits.json"
@@ -65,17 +69,17 @@ fun updateChart(commits: Array<CommitInfo>, name2id: Map<String, Int>) {
     }
 
     // Copy data to array
-    val data = array<CommitStat>()
-    for (k in map.keySet()) {
+    val data = arrayOf<CommitStat>()
+    for (k in map.keys) {
         data.push(CommitStat(k, map[k]!!))
     }
 
-    data.sort { (a, b) -> b.commitCount - a.commitCount }
+    data.sort { a, b -> b.commitCount - a.commitCount }
 
     // Setup scale
     val x: (Any) -> Any = d3.scale.linear()
-            .domain(array(0, max))
-            .range(array(0, 420))
+            .domain(arrayOf(0, max))
+            .range(arrayOf(0, 420))
 
     // Setup bar drawing
     val line =
@@ -102,7 +106,7 @@ fun updateChart(commits: Array<CommitInfo>, name2id: Map<String, Int>) {
         jq(".author_${name2id[d.authorName]}").show()
     }
 
-    bar.on("mouseleave") { _ ->
+    bar.on("mouseleave") { data ->
         jq("#commits div").show()
     }
 }

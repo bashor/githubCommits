@@ -6,8 +6,8 @@ import org.w3c.dom.Document
 import html5.files.Blob
 
 
-native
-trait XMLHttpRequestEventTarget : EventTarget {
+@native
+interface XMLHttpRequestEventTarget : EventTarget {
     // event handlers
     var onloadstart: EventHandler
     var onprogress: EventHandler
@@ -18,11 +18,11 @@ trait XMLHttpRequestEventTarget : EventTarget {
     var onloadend: EventHandler
 }
 
-native
-trait XMLHttpRequestUpload : XMLHttpRequestEventTarget
+@native
+interface XMLHttpRequestUpload : XMLHttpRequestEventTarget
 
-native
-trait XMLHttpRequestResponseType
+@native
+interface XMLHttpRequestResponseType
 //enum:
 //"",
 //"arraybuffer",
@@ -31,14 +31,14 @@ trait XMLHttpRequestResponseType
 //"json",
 //"text"
 
-native
-trait FormData {
+@native
+interface FormData {
     fun append(name: String, value: Blob, filename: String? = null)
     fun append(name: String, value: String)
 }
 
-native
-trait XMLHttpRequest : XMLHttpRequestEventTarget {
+@native
+interface XMLHttpRequest : XMLHttpRequestEventTarget {
     // event handler
     var onreadystatechange: EventHandler
     val readyState: Short

@@ -1,9 +1,9 @@
 package org.w3c.dom.events
 
-native
-trait PopStateEvent : Event {
+@native
+interface PopStateEvent : Event {
     var state: Any
 }
 
-native
-trait EventHandler : Function1<Event, Unit>
+@native
+interface EventHandler : Function1<Event, Unit>
