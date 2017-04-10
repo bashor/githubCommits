@@ -2,13 +2,15 @@
 
 package jquery
 
-@native("\$")
-val jq: JQuery = noImpl
+@JsName("\$")
+external val jq: JQuery
 
-@native
-fun <T> JQuery.getJSON(url: String, callback: (data: T, status: String, jqXHR: Any) -> Unit): Unit = noImpl
+/// TODO noinline
+@Suppress("NOTHING_TO_INLINE")
+inline fun <T> JQuery.getJSON(url: String, noinline callback: (data: T, status: String, jqXHR: Any) -> Unit): Unit = asDynamic().getJSON(url, callback)
 
-@native
-fun JQuery.show(): JQuery = noImpl
-@native
-fun JQuery.hide(): JQuery = noImpl
+@Suppress("NOTHING_TO_INLINE")
+inline fun JQuery.show(): JQuery = asDynamic().show()
+
+@Suppress("NOTHING_TO_INLINE")
+inline fun JQuery.hide(): JQuery = asDynamic().hide()

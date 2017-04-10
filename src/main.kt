@@ -6,9 +6,8 @@ import jquery.getJSON
 import jquery.hide
 import jquery.jq
 import jquery.show
-import java.util.*
-import kotlin.js.array.ext.push
-import kotlin.js.array.ext.sort
+import kotlinjs.array.ext.push
+import kotlinjs.array.ext.sort
 
 val GET_KOTLIN_COMMITS = "https://api.github.com/repos/JetBrains/kotlin/commits?sha=master&per_page=100"
 val GET_KOTLIN_COMMITS_LOCAL = "/githubCommits/commits.json"
@@ -18,6 +17,7 @@ val DEFAULT_AVATAR = "https://assets.github.com/images/gravatars/gravatar-user-4
 class CommitStat(val authorName: String, val commitCount: Int)
 
 fun main(args: Array<String>) {
+    // TODO replace with fetch
     jq {
         jq.getJSON<Array<CommitInfo>>(GET_KOTLIN_COMMITS) { commits, status, jqXHR ->
             val commitsDiv = jq("#commits")
@@ -77,7 +77,7 @@ fun updateChart(commits: Array<CommitInfo>, name2id: Map<String, Int>) {
     data.sort { a, b -> b.commitCount - a.commitCount }
 
     // Setup scale
-    val x: (Any) -> Any = d3.scale.linear()
+    val x = d3.scale.linear()
             .domain(arrayOf(0, max))
             .range(arrayOf(0, 420))
 

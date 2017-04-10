@@ -1,9 +1,9 @@
 @file:Suppress("unused")
 
-package kotlin.js.array.ext
+package kotlinjs.array.ext
 
-@native
-fun <T> Array<T>.push(e: T): Unit = noImpl
+@Suppress("NOTHING_TO_INLINE")
+inline fun <T> Array<T>.push(e: T): Unit = asDynamic().push(e)
 
-@native
-fun <T> Array<T>.sort(comparator: (T, T) -> Int): Unit = noImpl
+@Suppress("NOTHING_TO_INLINE")
+inline fun <T> Array<T>.sort(noinline comparator: (T, T) -> Int): Unit = asDynamic().sort(comparator)
